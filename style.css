@@ -1,0 +1,232 @@
+:root {
+    --mainColor: #252734;
+    --secooondaryColor: #333646;
+    --acsentColor:  #ff9100;
+}
+body {
+    background-color: var(--mainColor);
+    min-height: 1200px;
+    font-family: 'ubuntu', sans-serif;
+}
+
+section h1 {
+    color: #fff;
+    font-size: 2,5rem;
+}
+
+/* Navbar */
+
+.nav-link:active {
+    color: var(--acsentColor) !important;
+    font-weight: 700;
+}
+
+.nav-link:hover {
+    color: var(--acsentColor) !important;
+    font-weight: 700;
+}
+
+.nav-dark {
+    background-color: var(--secooondaryColor) !important;
+    z-index: 20;
+    transition: .8s;
+}
+
+/* End Navbar */
+
+/* Hero Section */
+
+.color-acsent {
+    color: var(--acsentColor);
+}
+
+#hero {
+    color: #fff;
+    min-height: 100vh;
+    padding-top: 75px;
+}
+
+#hero h1 {
+    font-size: 3rem;
+}
+
+#hero h2 {
+    font-weight: 300;
+}
+
+#hero p {
+    font-size: 1.1rem;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+/* CTA */
+.btn-custom1 {
+    background-color: var(--acsentColor);
+    text-align: center;
+    color: #fff;
+    min-width: 150px;
+    height: 45px;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.btn-custom1:hover {
+    background-color: var(--acsentColor) !important;
+    color: black;
+    box-shadow: 0 0 5px rgba(255, 166, 0, .8)
+}
+
+.cv {
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.1 rem;
+}
+
+.social-icon img {
+    margin-top: 9rem;
+    margin-right: .7rem ;
+}
+
+.social-icon-footer img{
+    margin-right: .7rem;
+    margin-bottom: 10px;
+}
+
+/* End Hero Section
+
+/* About Me */
+
+hr {
+    width: 35%;
+    height: 5px;
+    color: var(--acsentColor);
+    margin: 0 auto;
+    opacity: 100%;
+}
+
+#about {
+    min-height: 300px;
+    width: 100%;
+    background-color: var(--secooondaryColor);
+    color: #fff;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin-bottom: 80px;
+}
+/* End About Me*/
+
+/* Skill */
+
+#skill {
+    min-height: 600px;
+    width: 100%;
+    color: #fff;
+}
+
+#skill img {
+    margin: 10px;
+
+}
+#skill .p {
+    margin-top: 20px;
+}
+
+#skill .card {
+    background-color: #414558;
+    height: 340px;
+}
+
+#skill .card:hover {
+    background-color: var(--acsentColor);
+}
+
+.skill-konten {
+    margin-top: 120px;
+}
+/* End Skill */
+
+/* Portoflio */
+
+#portofolio {
+    margin-top: -170px;
+    padding-top : 250px;
+    padding-bottom: 80px;
+    background-color: var(--secooondaryColor);
+}
+
+#portofolio .container {
+    padding: 80px 10px;
+}
+ 
+/* End Portofolio */
+
+/* Contact Me */
+
+#contact {
+    margin-top: 50px;
+    min-height: 700px;
+    width: 100%;
+    color: #fff;
+}
+.contact-container {
+    max-width: 850px;
+    margin: 50px auto;
+    background: var(--secooondaryColor);
+    padding: 30px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+.contact-form{
+    display: grid;
+    gap: 20px;
+}
+.contact-form .form-group {
+    display: flex;
+    flex-direction: column;
+}
+.contact-form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: var(--acsentColor);
+}
+.contact-form input, .contact-form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.contact-form textarea {
+    height: 125px;
+}
+.contact-form button {
+    font-weight: bold;
+    padding: 15px;
+    font-size: 18px;
+    color: #fff;
+    background-color: var(--acsentColor);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+.contact-form button:hover {
+    font-weight: bold;
+    background-color: var(--acsentColor) !important;
+    color: black;
+    box-shadow: 0 0 5px rgba(255, 166, 0, .8)
+}
+/* End Contact Me*/
+
+/* Footer*/
+.footer {
+    min-height: 80px;
+    width: 100%;
+    background-color: var(--secooondaryColor);
+    color: #fff;
+    padding-top: 100px;
+}
+
+/* End Footer*?
+
+
