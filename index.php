@@ -260,7 +260,7 @@ if(isset($_POST['kirim'])) {
         <div class="contact-container">
             <form class="contact-form" action="process_message.php" method="POST">
                 <div class="form-group">
-                    <label for="name">Name</label>
+                    <label for="name">Nama</label>
                     <input type="text" name="name" placeholder="Full Name" required>
                 </div>
                 <div class="form-group">
@@ -269,7 +269,7 @@ if(isset($_POST['kirim'])) {
                 </div>
                 <div class="form-group">
                     <label for="message">Message</label>
-                    <textarea name="message" placeholder="Message" required></textarea>
+                    <textarea name="pesan" placeholder="Message" required></textarea>
                 </div>
                 <button type="submit">Send Message</button>
             </form> 
